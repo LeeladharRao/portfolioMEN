@@ -99,12 +99,6 @@ export default function ProjectsIndex() {
                 <i>2018 &mdash; PHP, MySQL</i>
               </small>
             </p>
-            <a
-              className="link-image"
-              target="_blank"
-            >
-              <img src={laconia} />
-            </a>
             <p>
               In my time of working with custom PHP systems, I noticed a lot of
               extremely messy, haphazardly put-together code, code that had no
