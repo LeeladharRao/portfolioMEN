@@ -1,5 +1,9 @@
 import React from 'react'
 
+import github from "../../contents/images/img-github.png"
+import facebook from "../../contents/images/img-facebook.png"
+import twitter from "../../contents/images/img-twitter.png"
+
 export default function Footer() {
   return (
     <footer className="footer flex">
@@ -12,7 +16,7 @@ export default function Footer() {
             rel="noopener noreferrer"
             className="img"
           >
-            {/* <img src={gatsby} className="footer-img" alt="Gatsby" /> */}
+            <img src={twitter} className="footer-img" alt="Gatsby" />
           </a>
           <a
             href="https://github.com/LeeladharRao"
@@ -21,7 +25,7 @@ export default function Footer() {
             rel="noopener noreferrer"
             className="img"
           >
-            {/* <img src={github} className="footer-img" alt="GitHub" /> */}
+            <img src={github} className="footer-img" alt="GitHub" />
           </a>
           <a
             href="https://www.netlify.com/"
@@ -30,7 +34,7 @@ export default function Footer() {
             rel="noopener noreferrer"
             className="img"
           >
-            {/* <img src={netlify} className="footer-img" alt="Netlify" /> */}
+            <img src={facebook} className="footer-img" alt="Netlify" />
           </a>
         </nav>
       </section>
