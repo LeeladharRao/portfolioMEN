@@ -27,11 +27,10 @@ function App() {
   return (
     <BrowserRouter>
       <Layout>
-        <Blurb title="I'm Tania Rascia.">
+        <Blurb title="I'm Leeladhar Kompally.">
           <p>
-            I'm a software engineer and writer. This website is my digital garden
-            &mdash; a compendium of the things I've learned and created over the
-            years.
+            I'm a software engineer. This website is my digital workspace — a mixture of the things
+            I've learned and done over the years.
           </p>
         </Blurb>
       </Layout>
