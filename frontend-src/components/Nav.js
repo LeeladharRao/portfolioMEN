@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from "react-router-dom"
+import { BrowserRouter, Route, Link, NavLink, Switch } from "react-router-dom"
 
 import projects from '../pages/projects.js'
 
@@ -17,10 +17,9 @@ export default function Nav() {
           </div>
 
           <div className="menu-item">
-            <Link to="/projects">Projects</Link>
               <Router>
                 <Switch>
-                  <Route path='/projects' component={projects} />
+                  <Route path='/projects' component={projects} />Projects
                 </Switch>
               </Router>
             {/* <Link to="/me">About me</Link> */}
