@@ -1,8 +1,8 @@
 import React from "react"
 import ReactDOM from "react-dom"
 import { BrowserRouter, Route, Link, NavLink, Switch } from "react-router-dom"
-import Layout from "./components/Layout"
-import Blurb from "./components/Blurb"
+import Layout from "../components/Layout"
+import Blurb from "../components/Blurb"
 
 function App() {
 
