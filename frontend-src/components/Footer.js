@@ -1,8 +1,8 @@
 import React from 'react'
 
-import github from "../../contents/images/img-github.png"
-import facebook from "../../contents/images/img-facebook.png"
-import twitter from "../../contents/images/img-twitter.png"
+import github from '../../contents/images/img-facebook.jpg'
+import facebook from '../../contents/images/img-facebook.jpg'
+import twitter from '../../contents/images/img-facebook.jpg'
 
 export default function Footer() {
   return (
