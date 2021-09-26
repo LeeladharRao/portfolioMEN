@@ -1,7 +1,7 @@
 const path = require("path")
 
 module.exports = {
-  entry: "./frontend-src/App.js",
+  entry: "./frontend-src/pages/index.js",
   output: {
     filename: "bundled.js",
     path: path.resolve(__dirname, "dist")
@@ -18,6 +18,16 @@ module.exports = {
             presets: [["@babel/preset-env", { "useBuiltIns": "usage", "corejs": 3, "targets": "defaults" }], "@babel/preset-react"]
           }
         }
+      },
+      {
+        test: /\.css$/,
+        use: ['style-loader', 'css-loader']
+      }, {
+        test: /\.(png|jpe?g|gif)$/i,
+        use: [
+          {
+            loader: 'file-loader',
+          }]
       }
     ]
   }
