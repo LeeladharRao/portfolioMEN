@@ -24,9 +24,6 @@ export default function Nav() {
           <Route path="/secret">
             <ProjectsIndex />
           </Route>
-          <Route path="/">
-            <App />
-          </Route>
         </Switch>
           </div>
         </div>
