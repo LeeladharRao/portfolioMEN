@@ -18,12 +18,11 @@ export default function Nav() {
           </div>
 
           <div className="menu-item">
-              <Router>
-                <Switch>
-                  <Route exact path='/projects' />
-                    <ProjectsIndex />
-                </Switch>
-              </Router>
+          <Switch>
+          <Route path="/projects">
+            <ProjectsIndex />
+          </Route>
+        </Switch>
             {/* <Link to="/me">About me</Link> */}
           </div>
         </div>
