@@ -18,7 +18,13 @@ module.exports = {
             presets: [["@babel/preset-env", { "useBuiltIns": "usage", "corejs": 3, "targets": "defaults" }], "@babel/preset-react"]
           }
         }
-      }
+      },
+      {
+        test: /\.css$/,
+        loader: "style-loader!css-loader"
+      }, {
+        test: /\.(jpe?g|png|gif|woff|woff2|eot|ttf|svg)(\?[a-z0-9=.]+)?$/,
+        loader: 'url-loader?limit=100000' }
     ]
   }
 }
