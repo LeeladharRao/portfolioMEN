@@ -31,7 +31,13 @@ module.exports = {
               limit: 8192,
             }
           }]
-        }
+      }, {
+        test: /\.(png|jpe?g|gif)$/i,
+        use: [
+          {
+            loader: 'file-loader',
+          }]
+      }
     ]
   }
 }
