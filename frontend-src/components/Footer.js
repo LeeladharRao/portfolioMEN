@@ -1,8 +1,8 @@
 import React from 'react'
 
-// import github from '../../contents/images/img-facebook.jpg'
-// import facebook from '../../contents/images/img-facebook.jpg'
-// import twitter from '../../contents/images/img-facebook.jpg'
+import github from '../../contents/images/img-facebook.jpg'
+import facebook from '../../contents/images/img-facebook.jpg'
+import twitter from '../../contents/images/img-facebook.jpg'
 
 export default function Footer() {
   return (
@@ -16,7 +16,7 @@ export default function Footer() {
             rel="noopener noreferrer"
             className="img"
           >
-            <img src={require('../../contents/images/img-facebook.jpg')} className="footer-img" alt="Gatsby" />
+            <img src={github} className="footer-img" alt="Gatsby" />
           </a>
           <a
             href="https://github.com/LeeladharRao"
@@ -25,7 +25,7 @@ export default function Footer() {
             rel="noopener noreferrer"
             className="img"
           >
-            <img src={require('../../contents/images/img-facebook.jpg')} className="footer-img" alt="GitHub" />
+            <img src={github} className="footer-img" alt="GitHub" />
           </a>
           <a
             href="https://www.netlify.com/"
@@ -34,7 +34,7 @@ export default function Footer() {
             rel="noopener noreferrer"
             className="img"
           >
-            <img src={require('../../contents/images/img-facebook.jpg')} className="footer-img" alt="Netlify" />
+            <img src={github} className="footer-img" alt="Netlify" />
           </a>
         </nav>
       </section>
