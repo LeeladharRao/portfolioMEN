@@ -1,7 +1,7 @@
 import React from 'react'
 import { BrowserRouter, Route, Link, NavLink, Switch } from "react-router-dom"
 
-import projects from '../pages/projects.js'
+import ProjectsIndex from '../pages/projects'
 
 export default function Nav() {
   return (
@@ -19,7 +19,8 @@ export default function Nav() {
           <div className="menu-item">
               <Router>
                 <Switch>
-                  <Route path='/projects' component={projects} />Projects
+                  <Route exact path='/projects' />
+                    <ProjectsIndex />
                 </Switch>
               </Router>
             {/* <Link to="/me">About me</Link> */}
