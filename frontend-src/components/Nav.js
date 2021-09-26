@@ -20,10 +20,10 @@ export default function Nav() {
           <div className="menu-item">
           <Switch>
           
-          <Route path="/secret">
-            <ProjectsIndex />
-          </Route>
-        </Switch>
+            <Route path="/secret">
+              <ProjectsIndex /> Projects
+            </Route>
+          </Switch>
           </div>
         </div>
       </div>
