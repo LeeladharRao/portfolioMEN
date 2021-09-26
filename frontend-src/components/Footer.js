@@ -1,8 +1,8 @@
 import React from 'react'
 
-import github from '../../contents/images/img-facebook.jpg'
-import facebook from '../../contents/images/img-facebook.jpg'
-import twitter from '../../contents/images/img-facebook.jpg'
+import facebook from '../../contents/images/facebook-64px.png'
+import github from '../../contents/images/github-64px.png'
+import netlify from '../../contents/images/netlify-64px.png'
 
 export default function Footer() {
   return (
@@ -10,13 +10,13 @@ export default function Footer() {
       <section className="container">
         <nav className="flex justify-center">
           <a
-            href="https://www.gatsbyjs.org/"
-            title="Built with Gatsby"
+            href="https://www.facebook.com/"
+            title="Facebook"
             target="_blank"
             rel="noopener noreferrer"
             className="img"
           >
-            <img src={github} className="footer-img" alt="Gatsby" />
+            <img src={facebook} className="footer-img" alt="Facebook" />
           </a>
           <a
             href="https://github.com/LeeladharRao"
@@ -34,7 +34,7 @@ export default function Footer() {
             rel="noopener noreferrer"
             className="img"
           >
-            <img src={github} className="footer-img" alt="Netlify" />
+            <img src={netlify} className="footer-img" alt="Netlify" />
           </a>
         </nav>
       </section>
