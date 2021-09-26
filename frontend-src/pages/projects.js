@@ -9,7 +9,6 @@ import meenusgallery from '../../content/images/meenusgallery.png'
 
 export default function ProjectsIndex() {
   return (
-    <BrowserRouter>
     <Layout>
       <Helmet title={`Projects | ${config.siteTitle}`} />
       <div className="page">
@@ -122,6 +121,5 @@ export default function ProjectsIndex() {
         </div>
       </div>
     </Layout>
-    </BrowserRouter>
   )
 }
