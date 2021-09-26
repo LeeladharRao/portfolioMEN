@@ -1,7 +1,7 @@
 import React from 'react'
 
 import facebook from '../../contents/images/facebook-64px.png'
-import github from '../../contents/images/github-64px.png'
+import github from '../../contents/images/github--64px.png'
 import netlify from '../../contents/images/netlify-64px.png'
 
 export default function Footer() {
