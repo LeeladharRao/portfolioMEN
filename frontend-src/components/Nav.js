@@ -1,7 +1,9 @@
 import React from 'react'
 import { BrowserRouter, Route, Link, NavLink, Switch } from "react-router-dom"
+import { Link } from 'gatsby-link'
 
 import ProjectsIndex from '../pages/projects'
+import GatsbyLink from 'gatsby-link'
 
 export default function Nav() {
   return (
@@ -23,6 +25,8 @@ export default function Nav() {
                     <ProjectsIndex />
                 </Switch>
               </Router>
+              <Link to="/projects">Projects</Link>
+            <Link to="/me">About me</Link>
             {/* <Link to="/me">About me</Link> */}
           </div>
         </div>
