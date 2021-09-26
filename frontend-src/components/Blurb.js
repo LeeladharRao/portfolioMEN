@@ -1,6 +1,6 @@
 import React from 'react'
 
-import leela from '../../contents/images/img-logo1.png'
+import leela from '../../contents/images/img-logo1.jpg'
 
 export default function Blurb({ title, children }) {
   return (
