@@ -7,7 +7,7 @@ import config from '../utils/config'
 import retailbanking from '../../contents/images/retailbanking.jpg'
 import meenusgallery from '../../contents/images/meenusgallery.jpg'
 
-export default function ProjectsIndex() {
+function ProjectsIndex() {
   return (
     <Layout>
       <Helmet title={`Projects | ${config.siteTitle}`} />
