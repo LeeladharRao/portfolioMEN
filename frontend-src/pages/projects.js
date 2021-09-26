@@ -4,8 +4,8 @@ import { BrowserRouter, Link } from "react-router-dom"
 
 import Layout from '../components/Layout'
 import config from '../utils/config'
-import retailbanking from '../../content/images/retailbanking.png'
-import meenusgallery from '../../content/images/meenusgallery.png'
+import retailbanking from '../../contents/images/retailbanking.png'
+import meenusgallery from '../../contents/images/meenusgallery.png'
 
 export default function ProjectsIndex() {
   return (
