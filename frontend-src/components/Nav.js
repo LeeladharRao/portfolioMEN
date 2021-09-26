@@ -3,7 +3,6 @@ import { BrowserRouter, Route, Link, NavLink, Switch } from "react-router-dom"
 
 
 import ProjectsIndex from '../pages/projects'
-import App from '../pages/index'
 
 export default function Nav() {
   return (
