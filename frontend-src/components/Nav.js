@@ -19,7 +19,7 @@ export default function Nav() {
 
           <div className="menu-item">
           <Switch>
-          <Route path="/projects">
+          <Route exact path="/projects">
             <ProjectsIndex />
           </Route>
         </Switch>

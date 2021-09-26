@@ -7,10 +7,10 @@ import config from '../utils/config'
 import retailbanking from '../../contents/images/retailbanking.jpg'
 import meenusgallery from '../../contents/images/meenusgallery.jpg'
 
-function ProjectsIndex() {
+export default function ProjectsIndex() {
   return (
     <Layout>
-      <Helmet title={`Projects | ${config.siteTitle}`} />
+      {/* <Helmet title={`Projects | ${config.siteTitle}`} /> */}
       <div className="page">
         <header>
           <div className="container">
