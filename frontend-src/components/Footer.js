@@ -2,7 +2,7 @@ import React from 'react'
 
 import facebook from '../../contents/images/facebook-64px.png'
 import github from '../../contents/images/github--64px.png'
-import netlify from '../../contents/images/netlify-64px.png'
+import linkedin from '../../contents/images/linkedin-64px.png'
 
 export default function Footer() {
   return (
@@ -28,13 +28,13 @@ export default function Footer() {
             <img src={github} className="footer-img" alt="GitHub" />
           </a>
           <a
-            href="https://www.netlify.com/"
-            title="Hosted by Netlify"
+            href="https://www.linkedin.com/"
+            title="LinkedIn"
             target="_blank"
             rel="noopener noreferrer"
             className="img"
           >
-            <img src={netlify} className="footer-img" alt="Netlify" />
+            <img src={linkedin} className="footer-img" alt="LinkedIn" />
           </a>
         </nav>
       </section>
