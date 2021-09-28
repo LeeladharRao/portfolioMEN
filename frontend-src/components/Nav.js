@@ -15,11 +15,13 @@ export default function Nav() {
           </div>
 
           <div className="menu-item">
-            {/* <Link to="/projects">Projects</Link>
-            <Link to="/me">About me</Link> */}
+            <Link to="/projects" className="nav-link" activeClassName="active">
+                Projects
+            </Link>
           </div>
         </div>
       </div>
     </nav>
+
   )
 }
