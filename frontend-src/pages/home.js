@@ -7,6 +7,8 @@ import Footer from '../components/Footer'
 import config from '../utils/config'
 import retailbanking from '../../contents/images/retailbanking.jpg'
 import meenusgallery from '../../contents/images/meenusgallery.jpg'
+import Layout from '../components/Layout'
+import Blurb from '../components/Blurb'
 
 export default function ProjectsIndex({ children }) {
   return (
