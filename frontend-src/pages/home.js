@@ -3,6 +3,7 @@ import Helmet from 'react-helmet'
 
 import Layout from '../components/Layout'
 import Blurb from '../components/Blurb'
+import config from '../utils/config'
 
 export default function Home({ children }) {
   return (
