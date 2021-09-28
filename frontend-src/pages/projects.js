@@ -39,6 +39,7 @@ export default function ProjectsIndex({ children }) {
               target="_blank"
             >
               <img src={retailbanking} />
+              <br></br>
             </a>
             <p>
               Retail-Banking is a web application that serves individual customers, to manage their savings and current 
@@ -72,6 +73,7 @@ export default function ProjectsIndex({ children }) {
               target="_blank"
             >
               <img src={meenusgallery}/>
+              <br></br>
             </a>
             <p>
               This is an art gallery page that I designed for my friend that showcases all her paintings and sketchings. 
