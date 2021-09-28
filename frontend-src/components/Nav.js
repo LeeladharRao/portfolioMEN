@@ -21,8 +21,11 @@ export default function Nav() {
             {/* <Link to="/projects" className="nav-link" activeClassName="active">
                 Barksalot
             </Link> */}
-                <Route exact path="/projects" component={ProjectsIndex} />button
-
+            <BrowserRouter>
+              <Switch>
+                <Route exact path="/projects" component={ProjectsIndex} />
+              </Switch>
+            </BrowserRouter>
           </div>
         </div>
       </div>
