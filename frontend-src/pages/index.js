@@ -35,12 +35,12 @@ function App() {
             I'm a software engineer. This website is my digital workspace — a mixture of the things
             I've learned and done over the years.
           </p>
-
-          <Route exact path="/" component={App} />
-          <Route path="/projects" component={ProjectsIndex} />
-
         </Blurb>
       </Layout>
+
+      <Switch>
+        <Route exact path="/projects" component={ProjectsIndex} />
+      </Switch>
     </BrowserRouter>
 
   )
