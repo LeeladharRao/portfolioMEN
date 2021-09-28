@@ -23,12 +23,6 @@ function App() {
 
   return (
     <BrowserRouter>
-
-       <Switch>
-        <Route exact path="/" component={App} />
-        <Route path="/projects" component={ProjectsIndex} />
-      </Switch>
-      
       <Layout>
         <Blurb title="I'm Leeladhar Kompally.">
           <p>
@@ -37,6 +31,9 @@ function App() {
           </p>
         </Blurb>
       </Layout>
+      <Switch>
+        <Route path="/projects" component={ProjectsIndex} />
+      </Switch>
     </BrowserRouter>
   )
 }
