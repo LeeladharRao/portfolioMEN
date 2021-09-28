@@ -2,14 +2,16 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import { BrowserRouter, Link } from "react-router-dom"
 
-import Layout from '../components/Layout'
+import Nav from './Nav'
+import Footer from './Footer'
 import config from '../utils/config'
 import retailbanking from '../../contents/images/retailbanking.jpg'
 import meenusgallery from '../../contents/images/meenusgallery.jpg'
 
 export default function ProjectsIndex() {
   return (
-    <Layout>
+    <>
+    <Nav />
       <Helmet title={`Projects | ${config.siteTitle}`} />
       <div className="page">
         <header>
@@ -114,7 +116,7 @@ export default function ProjectsIndex() {
           </section>
         </div>
       </div>
-      <h1>this is layotus</h1>
-    </Layout>
+    <Footer />
+    </>
   )
 }
