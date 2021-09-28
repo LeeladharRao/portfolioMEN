@@ -10,7 +10,7 @@ import meenusgallery from '../../contents/images/meenusgallery.jpg'
 export default function ProjectsIndex() {
   return (
     <Layout>
-      {/* <Helmet title={`Projects | ${config.siteTitle}`} /> */}
+      <Helmet title={`Projects | ${config.siteTitle}`} />
       <div className="page">
         <header>
           <div className="container">

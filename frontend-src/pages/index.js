@@ -33,7 +33,6 @@ function App() {
       </Layout>
 
         <Route exact path="/projects" component={ProjectsIndex} />
-
     </BrowserRouter>
   )
 }
