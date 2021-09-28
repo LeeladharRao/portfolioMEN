@@ -18,12 +18,9 @@ export default function Nav() {
           </div>
 
           <div className="menu-item">
-          <Switch>
-          
-            <Route path="/secret">
-              <ProjectsIndex /> Projects
-            </Route>
-          </Switch>
+            <Link to="/projects" className="nav-link" activeClassName="active">
+                Barksalot
+            </Link>
           </div>
         </div>
       </div>
