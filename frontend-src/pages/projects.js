@@ -11,7 +11,7 @@ export default function ProjectsIndex() {
   return (
     <Layout>
       {/* <Helmet title={`Projects | ${config.siteTitle}`} /> */}
-      {/* <div className="page">
+      <div className="page">
         <header>
           <div className="container">
             <h1>Projects.</h1>
@@ -113,7 +113,7 @@ export default function ProjectsIndex() {
             </p>
           </section>
         </div>
-      </div> */}
+      </div>
       <h1>this is layotus</h1>
     </Layout>
   )
