@@ -21,9 +21,16 @@ function App() {
     </section>
   )
 
+  const router = {
+
+  }
+
+
   return (
-    <BrowserRouter>
-      <Layout>
+    <><BrowserRouter>
+      <Route exact path="/projects" component={ProjectsIndex} />
+    </BrowserRouter>
+    <Layout>
         <Blurb title="I'm Leeladhar Kompally.">
           <p>
             I'm a software engineer. This website is my digital workspace — a mixture of the things
@@ -31,9 +38,9 @@ function App() {
           </p>
         </Blurb>
       </Layout>
+    </>
 
-        <Route exact path="/projects" component={ProjectsIndex} />
-    </BrowserRouter>
+     
   )
 }
 
