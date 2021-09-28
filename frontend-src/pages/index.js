@@ -36,8 +36,8 @@ function App() {
             I've learned and done over the years.
           </p>
 
-          <Route exact path="/" component={Page1} />
-          <Route exact path="/projects" component={ProjectsIndex} />
+          <Route exact path="/" component={App} />
+          <Route path="/projects" component={ProjectsIndex} />
 
         </Blurb>
       </Layout>
