@@ -18,15 +18,15 @@ export default function Nav() {
           </div>
 
           <div className="menu-item">
-            <Link to="/projects" className="nav-link" activeClassName="active">
+            {/* <Link to="/projects" className="nav-link" activeClassName="active">
                 Barksalot
-            </Link>
+            </Link> */}
 
-            <Router>
+
               <Switch>
                 <Route exact path="/projects" component={withRouter(ProjectsIndex)} />
               </Switch>
-            </Router>
+
           </div>
         </div>
       </div>
