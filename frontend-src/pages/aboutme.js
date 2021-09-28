@@ -28,7 +28,7 @@ export default function AboutmeIndex() {
               won't swamp you with more keywords.</p> */}
             <p>If you too love programming or just want to talk about nerdy things, you can contact me by email at 
               <strong>kompallyleeladhar@gmail.com</strong>. I always appreciate meeting new people.</p>
-            <h3 id="hobbies" style="position:relative;"><a href="#hobbies" aria-label="hobbies permalink"
+            <h3 id="hobbies" style={{position: 'relative'}}><a href="#hobbies" aria-label="hobbies permalink"
                 class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1"
                   viewBox="0 0 16 16" width="16">
                   <path fill-rule="evenodd"
@@ -40,7 +40,7 @@ export default function AboutmeIndex() {
               I love cooking, playing and watching football and l love motorsports.</p>
             <p>I like strategy and indie video games. Science, science fiction, animation stuff, Pokemon's, 
               modern engineering technology interests me, and I love binge-watching web content.</p>
-            <h3 id="quotes" style="position:relative;"><a href="#quotes" aria-label="quotes permalink"
+            <h3 id="quotes" style={{position: 'relative'}}><a href="#quotes" aria-label="quotes permalink"
               class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1"
                 viewBox="0 0 16 16" width="16">
                 <path fill-rule="evenodd"
