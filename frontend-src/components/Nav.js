@@ -10,11 +10,11 @@ export default function Nav() {
       <div className="container">
         <div className="grid">
           <div>
-            <Link to="/" className="brand">
+            {/* <Link to="/" className="brand">
               <span className="emoji">
               </span>{' '}
               Leeladhar Kompally
-            </Link>
+            </Link> */}
           </div>
 
           <div className="menu-item">
@@ -22,9 +22,7 @@ export default function Nav() {
                 Barksalot
             </Link> */}
             <BrowserRouter>
-              <Switch>
                 <Route exact path="/projects" component={ProjectsIndex} />
-              </Switch>
             </BrowserRouter>
           </div>
         </div>
