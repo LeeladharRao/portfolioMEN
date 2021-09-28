@@ -4,6 +4,7 @@ import { BrowserRouter, Route, Link, NavLink, Switch } from "react-router-dom"
 import Layout from "../components/Layout"
 import Blurb from "../components/Blurb"
 import ProjectsIndex from "./projects"
+import Home from "./home"
 
 function App() {
 
@@ -27,17 +28,10 @@ function App() {
 
 
   return (
-    <BrowserRouter>
-      
-    <Layout>
-        <Blurb title="I'm Leeladhar Kompally.">
-          <p>
-            I'm a software engineer. This website is my digital workspace — a mixture of the things
-            I've learned and done over the years.
-          </p>
-        </Blurb>
-      </Layout>
-
+    <BrowserRouter> 
+      <h1>React Router Example</h1>  
+      <Route exact path="/" component={Home} />  
+      <Route exact path="/projects" component={ProjectsIndex} />  
 
     </BrowserRouter>
 

@@ -9,12 +9,6 @@ export default function Layout({ children }) {
     <>
       <Nav />
       <main>{children}</main>
-
-      <Switch>
-        <Route exact path="/app" component={App} />
-        <Route exact path="/projects" component={ProjectsIndex} />
-      </Switch>
-
       <Footer />
     </>
   )
