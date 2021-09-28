@@ -38,9 +38,7 @@ function App() {
         </Blurb>
       </Layout>
 
-      <Switch>
-        <Route exact path="/projects" component={ProjectsIndex} />
-      </Switch>
+
     </BrowserRouter>
 
   )
