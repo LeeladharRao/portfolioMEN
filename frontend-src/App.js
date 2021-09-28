@@ -1,10 +1,9 @@
 import React from "react"
 import ReactDOM from "react-dom"
-import { BrowserRouter, Route, Link, NavLink, Switch } from "react-router-dom"
-import Layout from "../components/Layout"
-import Blurb from "../components/Blurb"
-import ProjectsIndex from "./projects"
-import Home from "./home"
+import { BrowserRouter, Route, Link} from "react-router-dom"
+
+import ProjectsIndex from "./pages/projects"
+import Home from "./pages/home"
 
 function App() {
 
@@ -22,19 +21,11 @@ function App() {
     </section>
   )
 
-  const router = {
-
-  }
-
-
   return (
     <BrowserRouter> 
-      <h1>React Router Example</h1>  
       <Route exact path="/" component={Home} />  
       <Route exact path="/projects" component={ProjectsIndex} />  
-
     </BrowserRouter>
-
   )
 }
 

@@ -1,12 +1,8 @@
 import React from 'react'
-import { BrowserRouter, Route, Link, withRouter, Switch} from "react-router-dom"
-
-
-import ProjectsIndex from '../pages/projects'
+import { Link } from "react-router-dom"
 
 export default function Nav() {
   return (
-
     <nav className="navbar">
       <div className="container">
         <div className="grid">
@@ -22,7 +18,6 @@ export default function Nav() {
             <Link to="/projects" className="nav-link" activeClassName="active">
                 Projects
             </Link>
-            
           </div>
         </div>
       </div>
