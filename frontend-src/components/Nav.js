@@ -1,5 +1,5 @@
 import React from 'react'
-import { BrowserRouter, Route, Link, withRouter, Switch, Router } from "react-router-dom"
+import { BrowserRouter, Route, Link, withRouter, Switch} from "react-router-dom"
 
 
 import ProjectsIndex from '../pages/projects'
@@ -21,11 +21,11 @@ export default function Nav() {
             {/* <Link to="/projects" className="nav-link" activeClassName="active">
                 Barksalot
             </Link> */}
-
-
+            <BrowserRouter>
               <Switch>
-                <Route exact path="/projects" component={withRouter(ProjectsIndex)} />
+                <Route exact path="/projects" component={withRouter(ProjectsIndex)} />button
               </Switch>
+            </BrowserRouter>
 
           </div>
         </div>

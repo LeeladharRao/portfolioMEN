@@ -21,7 +21,7 @@ function App() {
   )
 
   return (
-    <BrowserRouter>
+    
       <Layout>
         <Blurb title="I'm Leeladhar Kompally.">
           <p>
@@ -30,7 +30,7 @@ function App() {
           </p>
         </Blurb>
       </Layout>
-    </BrowserRouter>
+    
   )
 }
 
