@@ -6,27 +6,27 @@ import ProjectsIndex from '../pages/projects'
 
 export default function Nav() {
   return (
+
     <nav className="navbar">
       <div className="container">
         <div className="grid">
           <div>
-            {/* <Link to="/" className="brand">
+            <Link to="/" className="brand">
               <span className="emoji">
               </span>{' '}
               Leeladhar Kompally
-            </Link> */}
+            </Link>
           </div>
 
           <div className="menu-item">
-            {/* <Link to="/projects" className="nav-link" activeClassName="active">
-                Barksalot
-            </Link> */}
-            <BrowserRouter>
-                <Route exact path="/projects" component={ProjectsIndex} />
-            </BrowserRouter>
+            <Link to="/projects" className="nav-link" activeClassName="active">
+                Projects
+            </Link>
+            
           </div>
         </div>
       </div>
     </nav>
+
   )
 }

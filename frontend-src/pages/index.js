@@ -3,6 +3,7 @@ import ReactDOM from "react-dom"
 import { BrowserRouter, Route, Link, NavLink, Switch } from "react-router-dom"
 import Layout from "../components/Layout"
 import Blurb from "../components/Blurb"
+import ProjectsIndex from "./projects"
 
 function App() {
 
@@ -21,7 +22,13 @@ function App() {
   )
 
   return (
-    
+    <BrowserRouter>
+
+       <Switch>
+        <Route exact path="/" component={App} />
+        <Route path="/projects" component={ProjectsIndex} />
+      </Switch>
+      
       <Layout>
         <Blurb title="I'm Leeladhar Kompally.">
           <p>
@@ -30,7 +37,7 @@ function App() {
           </p>
         </Blurb>
       </Layout>
-    
+    </BrowserRouter>
   )
 }
 

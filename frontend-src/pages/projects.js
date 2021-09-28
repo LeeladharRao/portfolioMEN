@@ -1,5 +1,4 @@
 import React from 'react'
-import ReactDOM from "react-dom"
 import Helmet from 'react-helmet'
 import { BrowserRouter, Link } from "react-router-dom"
 
@@ -8,7 +7,7 @@ import config from '../utils/config'
 import retailbanking from '../../contents/images/retailbanking.jpg'
 import meenusgallery from '../../contents/images/meenusgallery.jpg'
 
-function ProjectsIndex() {
+export default function ProjectsIndex() {
   return (
     <Layout>
       {/* <Helmet title={`Projects | ${config.siteTitle}`} /> */}
@@ -119,5 +118,3 @@ function ProjectsIndex() {
     </Layout>
   )
 }
-
-ReactDOM.render(<ProjectsIndex />, document.getElementById("ProjectsIndex"))
