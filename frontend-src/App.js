@@ -5,6 +5,7 @@ import { BrowserRouter, Route, Link} from "react-router-dom"
 import ProjectsIndex from "./pages/projects"
 import Home from "./pages/home"
 import AboutmeIndex from "./pages/aboutme"
+import BlogIndex from "./pages/blog" 
 
 function App() {
 
@@ -27,6 +28,7 @@ function App() {
       <Route exact path="/" component={Home} />  
       <Route exact path="/projects" component={ProjectsIndex} />
       <Route exact path="/aboutme" component={AboutmeIndex} />  
+      <Route exact path="/blog" component={BlogIndex} />  
     </BrowserRouter>
   )
 }
