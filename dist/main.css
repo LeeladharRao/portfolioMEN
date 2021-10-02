@@ -1,7 +1,6 @@
     @import url(https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&display=swap);
     @import url(https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap);
 
-    /*! Tania Rascia's website style. Written with plain CSS in one file. Why not? */
     :root {
       --font-color: #495057;
       --heading-color: #343a40;
