@@ -8,12 +8,12 @@ export default function Posts() {
 
     return (
       <div className="post" >
-        <Link to="/post1">
+        {/* <Link to="/post1"> */}
           <div className="post-row">
             <h3>titile</h3>
             <div><time>Jun 23</time></div>
           </div>
-        </Link>
+        {/* </Link> */}
       </div>
       
       
