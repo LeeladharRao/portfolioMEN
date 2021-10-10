@@ -20,7 +20,7 @@ export default function BlogIndex() {
         </div>
       </header>
       <section>
-        <div className="container">
+        <div class="container">
           <Posts />
         </div>
       </section>
