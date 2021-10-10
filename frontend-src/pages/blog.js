@@ -2,6 +2,7 @@ import React from 'react'
 import Helmet from 'react-helmet'
 
 import Layout from '../components/Layout'
+import Posts from '../components/Posts'
 import config from '../utils/config'
 
 export default function BlogIndex() {
@@ -20,8 +21,7 @@ export default function BlogIndex() {
       </header>
       <section>
         <div className="container">
-          <p>post 1 </p>
-          <p>post 2</p>
+          <Posts />
         </div>
       </section>
     </Layout>
