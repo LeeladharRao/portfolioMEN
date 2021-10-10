@@ -7,11 +7,13 @@ export default function Posts() {
   const Cell = () => {
 
     return (
-      <div>
-      <a class="post new" href="redesign-version-5.html">
-        <h3>Redesign: Version 5.0</h3>
-        <div><time>Sep 02</time></div>
-      </a>
+      <div className="post" >
+
+          <div className="post-row">
+            <time>Jan 04</time>
+            <h3>title</h3>
+          </div>
+
       </div>
 
 
