@@ -7,27 +7,27 @@ export default function Posts() {
   const Cell = () => {
 
     return (
-      <div className="post" >
+      <a class="post" >
         {/* <Link to="/post1"> */}
-          <div className="post-row">
-            <h3>titile</h3>
-            <div><time>Jun 23</time></div>
-          </div>
+          <h3>titile</h3>
+          <div><time>Jun 23</time></div>
         {/* </Link> */}
-      </div>
-      
-      
+      </a>
+
+
     )
   }
 
 
   return (
     <section>
-      <h2>2021</h2>
-      <div className="posts">
+      <section>
+        <h2>2021</h2>
+        <div className="posts">
           <Cell />
           <Cell />
-      </div>
+        </div>
+      </section>
     </section>
   )
 
