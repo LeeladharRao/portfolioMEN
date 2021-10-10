@@ -20,6 +20,8 @@ export default function BlogIndex() {
       </header>
       <section>
         <div className="container">
+          <p>post 1 </p>
+          <p>post 2</p>
         </div>
       </section>
     </Layout>
