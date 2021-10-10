@@ -12,7 +12,7 @@ export default function Posts() {
 
           <div class="post" >
 
-            <div class="post-row" href="#">
+            <div class="post-row">
               <time>Jan 04</time>
               <h3>title</h3>
             </div>
