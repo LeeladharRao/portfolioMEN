@@ -3,10 +3,7 @@ import React, { useEffect, useState } from 'react'
 
 export default function Posts() {
 
-  const [posts, setPosts] = useState([{
-    title: 't1',
-    content: 'c1'
-  }])
+  const [posts, setPosts] = useState([])
 
   useEffect(() => {
     fetch("/blog").then(res => {
@@ -21,10 +18,10 @@ export default function Posts() {
           <div class="post" >
             <div class="post-row" href="#">
               <time>Jan 04</time>
-              <div className="users">
-                {(posts || []).map((p) => (
-                  <div>{p.title}</div>
-                ))}
+              <div >
+                {posts.map((post) => 
+                  {item.name}
+                )}
               </div>
             </div>
           </div>
