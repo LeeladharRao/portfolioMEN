@@ -22,9 +22,7 @@ export default function Posts() {
             <div class="post-row" href="#">
               <time>Jan 04</time>
               <div>
-              {posts.map(post =>
-                <h3>{post.title}</h3>
-              )}
+                <h3>{posts}</h3>
               </div>
             </div>
           </div>
