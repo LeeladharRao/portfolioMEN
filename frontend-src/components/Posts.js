@@ -20,7 +20,7 @@ export default function Posts() {
               <time>Jan 04</time>
               <div >
                 {posts.map((post) => 
-                  {post.name}
+                  {post.title}
                 )}
               </div>
             </div>
