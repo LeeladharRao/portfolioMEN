@@ -10,9 +10,6 @@ export default function Posts() {
 
   useEffect(() => {
     fetch("/blog").then(res => {
-      if (res.ok){
-        return res.json()
-      }
     }).then(jsonRes => setPosts(jsonRes));
   })
 

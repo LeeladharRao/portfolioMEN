@@ -4,7 +4,7 @@ const Post = require("./postModel");
 
 router.route("/blog").get((req,res) => {
     Post.find()
-        .then(foundPosts => res.json(foundPosts))
+        .then(foundPosts => res.text(foundPosts))
 })
 
 module.exports = router;
