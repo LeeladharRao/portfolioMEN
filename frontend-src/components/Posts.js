@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react'
+import React, { useEffect, useState } from 'react'
 
 
 export default function Posts() {
@@ -21,12 +21,14 @@ export default function Posts() {
           <div class="post" >
             <div class="post-row" href="#">
               <time>Jan 04</time>
-              <div>
-                <h3>{posts}</h3>
+              <div className="users">
+                {posts.map((p) => (
+                  <div>{p.title}</div>
+                ))}
               </div>
             </div>
           </div>
-          </div>
+        </div>
       </section>
     </section>
   )
