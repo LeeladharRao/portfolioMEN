@@ -1,8 +1,20 @@
-import React from 'react'
+import React, {useEffect, useState} from 'react'
 
 
 export default function Posts() {
 
+  const [posts, setPosts] = useState([{
+    title: '',
+    content: ''
+  }])
+
+  useEffect(() => {
+    fetch("/blog").then(res => {
+      if (res.ok){
+        return res.json()
+      }
+    }).then(jsonRes => setPosts(jsonRes));
+  })
 
   return (
     <section>
@@ -12,22 +24,14 @@ export default function Posts() {
           <div class="post" >
             <div class="post-row" href="#">
               <time>Jan 04</time>
-              <h3>title</h3>
+              <div>
+              {posts.map(post =>
+                <h3>{post.title}</h3>
+              )}
+              </div>
             </div>
           </div>
-          <div class="post" >
-            <div class="post-row" href="#">
-              <time>Jan 04</time>
-              <h3>title</h3>
-            </div>
           </div>
-          <div class="post" >
-            <div class="post-row" href="#">
-              <time>Jan 04</time>
-              <h3>title</h3>
-            </div>
-          </div>
-        </div>
       </section>
     </section>
   )
